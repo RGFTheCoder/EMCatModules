@@ -6,5 +6,6 @@ module.exports.t = module.exports.template = function (input) {
         for (let i in valObjs) {
             out = out.replace("%" + i, valObjs[i]);
         }
+        return out;
     }
 }
